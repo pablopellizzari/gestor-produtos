@@ -1,0 +1,32 @@
+{
+  "name": "e-treino",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pablopellizzari/e-Treino#readme",
+  "bugs": {
+    "url": "https://github.com/pablopellizzari/e-Treino/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopellizzari/e-Treino.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19",
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "dotenv": "^17.2.3",
+    "prisma": "6.19",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
