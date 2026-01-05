@@ -1,14 +1,14 @@
 {
-  "name": "e-treino",
+  "name": "gestor-produtos-back",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/pablopellizzari/e-Treino#readme",
+  "homepage": "https://github.com/pablopellizzari/gestor-produtos-back#readme",
   "bugs": {
-    "url": "https://github.com/pablopellizzari/e-Treino/issues"
+    "url": "https://github.com/pablopellizzari/gestor-produtos-back/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablopellizzari/e-Treino.git"
+    "url": "git+https://github.com/pablopellizzari/gestor-produtos-back.git"
   },
   "license": "ISC",
   "author": "",

@@ -24,6 +24,11 @@ function Home() {
     getProdutos();
   }
 
+    async function deleteProdutos(id) {
+    await api.delete(`/produtos/${id}`)
+    getProdutos();
+  }
+
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     getProdutos()
@@ -48,7 +53,7 @@ function Home() {
               <p>Description: <span>{product.description}</span></p>
               <p>Price: <span>{product.price}</span></p>
             </div>
-            <button>
+            <button onClick={() => deleteProdutos(product.id)}>
               <img src={Trash} />
             </button>
           </div>
